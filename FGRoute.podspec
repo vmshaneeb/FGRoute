@@ -29,7 +29,8 @@ FGRoute is library to help developers get info from wifi interfaces, such as con
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FGRoute/Classes/**/*'
+  #s.source_files = 'FGRoute/Classes/**/*'
+    s.source_files = 'Sources/Classes/**/*'
 
   s.public_header_files = 'FGRoute/Classes/**/FGRoute.h'
 end
